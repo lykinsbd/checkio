@@ -20,7 +20,7 @@ def main():
 
     i = input("Please enter a string: ")
     answer = checkio(i)
-    print("\"{0}\"".format(answer))
+    print('"{0}"'.format(answer))
     quit()
 
 
@@ -49,6 +49,7 @@ def checkio(text):
 
     # Figure out the frequency of each letter
     import collections
+
     count = collections.Counter(letters)
     # print(count)
 
